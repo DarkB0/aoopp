@@ -10,7 +10,7 @@ foreach ($telegram_ip_ranges as $telegram_ip_range) if (!$ok) {  $lower_dec = (f
  if ($ip_dec >= $lower_dec and $ip_dec <= $upper_dec) $ok=true;}
 if (!$ok) die("Hello My Bitch :)");
 //┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
-$tokens = "#your-token"; // توکن ربات 
+$tokens = "5075407591:AAHNmN4rX2_CYWatC-pYJKrneRFbvQQb_3Q"; // توکن ربات 
 //┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅┅
 define('API_KEY',$tokens);
 function bot($method,$datas=[]){ // Bot Function
@@ -84,11 +84,11 @@ $tc = $update->message->chat->type;
 $user = json_decode(file_get_contents("data/users.json"),true);
 $step = $user["user"]["$from_id"]["step"];
 // آیدی عددی ادمین ها
-$admins = array("918222513","00000000");
+$admins = array("1422078105","00000000");
 // نام کاربری ربات شما بدون @
-$bottag = "آیدی ربات بدون @";
+$bottag = "Editor_seniorbot_bot";
 // آدرس محل نصب سورس ربات
-$d = "https://site.com/folder";
+$d = "https://benaymin.herokuapp.com/";
 	//┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 	$sss = json_encode([
 'keyboard'=>[
