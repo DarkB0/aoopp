@@ -88,7 +88,7 @@ $admins = array("1422078105","00000000");
 // نام کاربری ربات شما بدون @
 $bottag = "Editor_seniorbot_bot";
 // آدرس محل نصب سورس ربات
-$d = "https://benaymin.herokuapp.com/";
+$d = "https://benaymin.herokuapp.com/index.php";
 	//┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈
 	$sss = json_encode([
 'keyboard'=>[
